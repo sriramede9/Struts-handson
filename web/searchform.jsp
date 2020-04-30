@@ -18,7 +18,7 @@
 
 
 <s:form action="tutorials/getTutorials">  
-<s:textfield name="language" label="language"></s:textfield>  
+<s:textfield key="language" label="language"></s:textfield>  
 <s:submit value="search"></s:submit>  
 </s:form>
 

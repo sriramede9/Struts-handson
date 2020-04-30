@@ -11,4 +11,14 @@ Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
 </action>  
   
 </package>  
+<package name="com.sri.login"  extends="struts-default">  
+  
+<action name="login" class="com.sri.login.LoginAction">  
+<result name="login">/searchform.jsp</result>  
+<result name="error">/error_page.jsp</result>  
+</action>  
+  
+</package>
+
+
 </struts>     
