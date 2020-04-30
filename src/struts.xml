@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts  
+Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">  
+
+<struts>  
+<package name="com.sri.tutorial" namespace="/tutorials" extends="struts-default">  
+  
+<action name="getTutorials" class="com.sri.tutorial.TutorialAction">  
+<result name="success">/tutorialshome.jsp</result>  
+<result name="error">/error_page.jsp</result>  
+</action>  
+  
+</package>  
+</struts>     
