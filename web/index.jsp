@@ -6,7 +6,8 @@
 <meta charset="ISO-8859-1">
 <title>Index</title>
 </head>
-<body>
+<body style="background-color: teal">
 <h2>index page</h2>
+<a href="/TutorialServiceStruts/searchform.jsp">SearchBestCoursesbyLanguage</a>
 </body>
 </html>
